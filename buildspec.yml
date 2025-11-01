@@ -4,7 +4,7 @@ env:
   variables:
     AWS_REGION: "ap-south-1"          # ✅ Change to your region
     IMAGE_REPO_NAME: "cohesion-repo"         # ✅ ECR repo name (must already exist)
-    CONTAINER_NAME: "choesion-container"          # ✅ Must match ECS task definition
+    CONTAINER_NAME: "cohesion-container"          # ✅ Must match ECS task definition
   shell: bash
 
 phases:
